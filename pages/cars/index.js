@@ -1,10 +1,14 @@
-import CarsPage from "@/components/templates/CarsPage"
-import carsData from "@/data/carsData"
+import Categories from "@/components/layout/module/Categories";
+import CarsPage from "@/components/templates/CarsPage";
+import carsData from "@/data/carsData";
 
 function Details() {
   return (
-    <CarsPage data={carsData} /> 
-  )
+    <div>
+      <Categories />
+      <CarsPage data={carsData} />{" "}
+    </div>
+  );
 }
 
-export default Details
+export default Details;
