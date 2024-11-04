@@ -1,11 +1,11 @@
 import { useRouter } from "next/router";
 import Back from "../icons/Back";
 import styles from "./CarsList.module.css";
-import Card from "../layout/module/Card";
+import Card from "../module/Card";
 
 function CarsList({ data }) {
   const router = useRouter();
-  console.log(data)
+  console.log(data);
   const backHandler = () => {
     router.back();
   };
