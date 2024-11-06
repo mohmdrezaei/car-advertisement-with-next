@@ -5,7 +5,7 @@ function Layout({children}) {
      <>
      <header className={styles.header}>
         <h2>NextCar</h2>
-        <p>Choose an Buy your car</p>
+        <p>Choose and Buy your car</p>
      </header >
       <div className={styles.container}>{children}</div>
      <footer className={styles.footer}>mohammad rezaei | next car &copy; </footer>
